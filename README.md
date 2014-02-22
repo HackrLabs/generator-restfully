@@ -28,6 +28,10 @@ To install generator-restfully from npm, run:
 ```
 $ npm install -g generator-restfully
 ```
+Create a directory for your api and cd into the directory
+$ mkdir api
+$ cd api
+```
 
 Finally, initiate the generator:
 
