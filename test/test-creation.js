@@ -25,7 +25,7 @@ describe('restfully generator', function () {
     ];
 
     helpers.mockPrompt(this.app, {
-      'someOption': true
+      'database': 'MySQL'
     });
     this.app.options['skip-install'] = true;
     this.app.run({}, function () {
